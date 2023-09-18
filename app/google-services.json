@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "740737976005",
+    "project_id": "hurdlers-webview",
+    "storage_bucket": "hurdlers-webview.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740737976005:android:f3c80d2f9fe58737cc12ac",
+        "android_client_info": {
+          "package_name": "com.example.hurdlers_webview"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSADjH505tBWxGH1qb29nZo04oVd6na1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
