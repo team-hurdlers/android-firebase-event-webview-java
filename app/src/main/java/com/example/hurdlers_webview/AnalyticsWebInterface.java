@@ -77,10 +77,14 @@ public class AnalyticsWebInterface {
             item.putString(FirebaseAnalytics.Param.ITEM_ID, itemJson.getString("item_id"));
             item.putString(FirebaseAnalytics.Param.ITEM_NAME, itemJson.getString("item_name"));
             item.putString(FirebaseAnalytics.Param.ITEM_CATEGORY, itemJson.getString("item_category"));
+            item.putString(FirebaseAnalytics.Param.ITEM_CATEGORY2, itemJson.getString("item_category2"));
+            item.putString(FirebaseAnalytics.Param.ITEM_CATEGORY3, itemJson.getString("item_category3"));
+            item.putString(FirebaseAnalytics.Param.ITEM_CATEGORY4, itemJson.getString("item_category4"));
             item.putString(FirebaseAnalytics.Param.ITEM_VARIANT, itemJson.getString("item_variant"));
             item.putString(FirebaseAnalytics.Param.ITEM_BRAND, itemJson.getString("item_brand"));
             item.putDouble(FirebaseAnalytics.Param.PRICE, Double.parseDouble(itemJson.getString("price")));
             item.putDouble(FirebaseAnalytics.Param.QUANTITY, Double.parseDouble(itemJson.getString("quantity")));
+            item.putDouble(FirebaseAnalytics.Param.DISCOUNT, Double.parseDouble(itemJson.getString("discount")));
         }
         return item;
     }
