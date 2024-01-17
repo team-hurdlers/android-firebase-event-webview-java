@@ -1,4 +1,4 @@
-package com.example.hurdlers_webview;
+package kr.hurdlers.webba.Firebase;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -12,8 +12,6 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.Iterator;
 
 public class AnalyticsWebInterface {
@@ -37,6 +35,11 @@ public class AnalyticsWebInterface {
             LOGD(e.getMessage());
             e.printStackTrace();
         }
+    }
+
+    @JavascriptInterface
+    public void setUserId(String userId) {
+        mAnalytics.setUserId(userId);
     }
 
     @JavascriptInterface
